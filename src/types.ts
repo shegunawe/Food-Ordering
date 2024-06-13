@@ -15,6 +15,11 @@ export type CartItem = {
   quantity: number;
 };
 
+export type CartScreenProps = {
+  visible: boolean;
+  onClose: () => void;
+};
+
 export const OrderStatusList: OrderStatus[] = [
   'New',
   'Cooking',
