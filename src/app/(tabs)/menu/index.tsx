@@ -1,6 +1,7 @@
 import products from '@/assets/data/products';
+import ProductListItem from '@/src/components/ProductListItem';
 import { View, FlatList} from 'react-native';
-import ProductListItem from '../../../components/ProductListItem';
+
 
 export default function HomeScreen() {
   return (
